@@ -35,9 +35,11 @@ a {
 }
 
 .btn {
+    background: var(--lime-green);
     padding: 0.875rem 2.1875rem;
     border-radius: 50px;
     font-weight: 400;
+    color: var(--white);
 }
 
 .btn:hover {
@@ -173,13 +175,13 @@ a {
     background-image: url(images/image-mockups.png);
     background-repeat: no-repeat;
     background-size: 77%;
-    background-position: 83% 163%;
+    background-position: 5% 163%;
 }
 
 .image_section::before {
     content: '';
     position: absolute;
-    width: 14%;
+    width: 20%;
     padding: 65%;
     background-image: url(images/bg-intro-desktop.svg);
     background-repeat: no-repeat;
@@ -414,6 +416,10 @@ a {
     text-align: center;
 }
 
+.footer__social a:hover {
+    color: var(--lime-green);
+}
+
 .footer__social a {
     margin-right: 10px;
 }
@@ -445,16 +451,16 @@ a {
 }
 
 @media only screen and (max-width: 1024px) {
-    .header__toggler {
+    /* .header__toggler {
         display: block;
-    }
-    #header {
+    } */
+    /* #header {
         max-width: 950px;
         min-width: 375px;
         height: 60px;
         padding: 0 26px 0 26px;
-    }
-    .header__btn {
+    } */
+    /* .header__btn {
         display: none;
     }
     .toggle__btn {
@@ -500,13 +506,13 @@ a {
     }
     .header_nav a::after {
         display: none;
-    }
-    .show {
+    } */
+    /* .show {
         display: flex;
     }
     .hide {
         display: none;
-    }
+    } */
     /* hero section */
     .first_info {
         flex-direction: column-reverse;
@@ -535,6 +541,7 @@ a {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center 79%;
+        /* padding-right: 10%; */
     }
     .first_text {
         text-align: center;
