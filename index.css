@@ -1,9 +1,6 @@
-*,
-*::before,
-* ::after {
+* {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
 :root {
@@ -113,11 +110,23 @@ a {
     border-bottom: 5px solid #0ef;
 }
 
+
+/* 
+.navbar-brand img a {
+padding-left: 6rem;
+                margin-left: 6rem;
+            } */
+
 .navbar-collapse {
     flex-grow: 2;
     text-align: center;
     margin-left: 8rem;
     /* justify-content: flex-end; */
+}
+
+.container {
+    max-width: 70rem;
+    margin: 0 auto;
 }
 
 .nav__list {
@@ -399,6 +408,11 @@ a {
 .footer__copyright {
     font-size: var(--fs);
     color: var(--grayish-blue);
+    margin-bottom: 1rem;
+}
+
+.footer__logo {
+    margin: 1rem;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -502,17 +516,18 @@ a {
         flex-direction: column;
         height: 510px;
         align-items: center;
+        padding: 10px 0px 0px 0px;
     }
     .footer__btn__copyright {
         align-items: center;
-        flex: 1;
+        /* flex: 1; */
     }
     .footer__nav__1 {
         padding-top: 30px;
         flex: 1;
     }
     .footer__nav__2 {
-        padding-bottom: 30px;
+        padding-bottom: 25px;
         flex: 1;
     }
     .footer__logo__social {
