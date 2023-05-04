@@ -451,69 +451,7 @@ a {
 }
 
 @media only screen and (max-width: 1024px) {
-    /* .header__toggler {
-        display: block;
-    } */
-    /* #header {
-        max-width: 950px;
-        min-width: 375px;
-        height: 60px;
-        padding: 0 26px 0 26px;
-    } */
-    /* .header__btn {
-        display: none;
-    }
-    .toggle__btn {
-        cursor: pointer;
-    }
-    .overlay {
-        position: fixed;
-        z-index: 999;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
-    .nav__ul {
-        display: none;
-        flex-direction: column;
-        text-align: center;
-        background-color: var(--white);
-        border-radius: 5px;
-        position: absolute;
-        max-width: auto;
-        height: auto;
-        margin: auto;
-        top: 115%;
-        left: 50%;
-        transform: translate(-50%);
-        z-index: 999;
-    }
-    .nav__list {
-        display: flex;
-        justify-content: center;
-    }
-    .header_nav>.nav__list a {
-        font-size: var(--fs);
-        height: 60px;
-        padding: 20px 0;
-    }
-    .nav__list a:hover {
-        transition: color 200ms ease-in-out;
-        color: var(--grayish-blue);
-    }
-    .nav__list:not(:last-child) {
-        margin-right: 0rem;
-    }
-    .header_nav a::after {
-        display: none;
-    } */
-    /* .show {
-        display: flex;
-    }
-    .hide {
-        display: none;
-    } */
-    /* hero section */
+    /* first section */
     .first_info {
         flex-direction: column-reverse;
         height: auto;
