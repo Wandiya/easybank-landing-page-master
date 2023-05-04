@@ -90,6 +90,10 @@ a {
     margin-inline: .5rem;
 }
 
+.navbar li:hover {
+    border-bottom: 5px solid var(--lime-green);
+}
+
 .navbar-collapse {
     flex-grow: 0;
 }
