@@ -30,10 +30,6 @@ a {
     display: inline-block;
 }
 
-.header__toggler {
-    display: none;
-}
-
 .btn {
     background: var(--lime-green);
     padding: 0.875rem 2.1875rem;
@@ -91,36 +87,6 @@ a {
 
 .nav__list:not(:last-child) {
     margin-right: 2rem;
-}
-
-.header_nav .nav__list a {
-    position: relative;
-    color: var(--grayish-blue);
-    height: 80px;
-    padding: 30px 0;
-    font-size: var(--fs);
-}
-
-.header__nav a::after {
-    display: block;
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    opacity: 0;
-    content: '';
-    background: linear-gradient(to right, rgba(49, 211, 92, 1) 0%, rgba(43, 183, 218, 1));
-    transition: opacity 200ms ease-in-out;
-}
-
-.header__nav a:hover,
-.footer__nav a:hover {
-    transition: color 200ms ease-in-out;
-}
-
-.header__nav a:hover {
-    color: var(--dark-blue);
 }
 
 .first_content {
@@ -346,71 +312,6 @@ a {
     margin-right: 10px;
 }
 
-
-/* .footer__social .fb {
-    background-image: url("images/icon-facebook.svg");
-    background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
-}
-
-.footer__social .fb:hover {
-    background-image: url("images/icon-facebook.svg");
-    background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
-}
-
-.footer__social .yt {
-    background-image: url("images/icon-youtube.svg");
-    background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
-}
-
-.footer__social .yt:hover {
-    background-image: url("images/icon-youtube.svg");
-    background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
-}
-
-.footer__social .tw {
-    background-image: url("images/icon-twitter.svg");
-    background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
-}
-
-.footer__social .tw:hover {
-    background-image: url("images/icon-twitter-hover.svg");
-    background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
-}
-
-.footer__social .pin {
-    background-image: url("images/icon-pinterest.svg");
-    background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
-}
-
-.footer__social .pin:hover {
-    background-image: url("images/icon-pinterest-hover.svg");
-    background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
-}
-
-.footer__social .inst {
-    background-image: url("images/icon-instagram.svg");
-    background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
-}
-*/
-
 .footer__social a {
     color: var(--white);
     text-align: center;
@@ -443,6 +344,10 @@ a {
 .footer__nav a {
     font-size: var(--fs);
     color: var(--white);
+}
+
+.footer__nav a:hover {
+    color: var(--lime-green);
 }
 
 .footer__copyright {
