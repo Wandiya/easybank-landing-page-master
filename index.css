@@ -44,41 +44,6 @@ a {
     overflow: hidden;
 }
 
-#section {
-    min-width: 375px;
-    max-width: 100%;
-}
-
-#header {
-    display: flex;
-    background-color: var(--white);
-    width: 100%;
-    height: 80px;
-    position: relative;
-    max-width: 69.375em;
-    margin: 0 auto;
-}
-
-
-/* 
-.nav__ul {
-    display: flex;
-} */
-
-.header__logo {
-    margin-right: auto;
-}
-
-.header__logo img,
-.footer__logo {
-    width: 8.8125rem;
-    height: 1.375rem;
-}
-
-.header__btn {
-    margin-left: auto;
-}
-
 
 /* navbar styles */
 
@@ -110,13 +75,6 @@ a {
     border-bottom: 5px solid #0ef;
 }
 
-
-/* 
-.navbar-brand img a {
-padding-left: 6rem;
-                margin-left: 6rem;
-            } */
-
 .navbar-collapse {
     flex-grow: 2;
     text-align: center;
@@ -137,6 +95,9 @@ padding-left: 6rem;
 .nav__list:not(:last-child) {
     margin-right: 2rem;
 }
+
+
+/* first content styles*/
 
 .first_content {
     background-color: var(--white);
@@ -204,8 +165,13 @@ padding-left: 6rem;
     background-position: 5% 234%;
 }
 
+#section {
+    min-width: 375px;
+    max-width: 100%;
+}
 
-/*second_content */
+
+/*second_content styles */
 
 .second_content {
     background-color: var(--light-grayish-blue);
@@ -298,14 +264,14 @@ padding-left: 6rem;
     border-radius: 5px;
 }
 
+
+/* article text */
+
 .article__text {
     max-width: 12.8rem;
     margin: 0 auto;
     padding-bottom: 1.7rem;
 }
-
-
-/* article text */
 
 .person-name,
 .article__paragraph {
@@ -354,9 +320,14 @@ padding-left: 6rem;
     border-radius: 50px;
 }
 
+.footer__logo {
+    width: 8.8125rem;
+    height: 1.375rem;
+}
+
 .footer__container {
     display: flex;
-    max-width: 69rem;
+    max-width: 70rem;
     margin: 0 auto;
     width: 100%;
     height: 192px;
@@ -533,13 +504,8 @@ padding-left: 6rem;
     .footer__logo__social {
         flex: 1;
     }
+    /* button style */
     .btn-1 {
         display: none;
     }
-    /* .navbar li {
-        justify-content: flex-start;
-        font-size: var(--fs);
-        font-family: var(--ff);
-        margin-inline: .5rem;
-    } */
 }
