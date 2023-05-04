@@ -80,6 +80,20 @@ a {
     margin-left: auto;
 }
 
+
+/* navbar styles */
+
+.navbar li {
+    justify-content: flex-end;
+    font-size: var(--fs);
+    font-family: var(--ff);
+    margin-inline: .5rem;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
 .nav__list {
     height: 100%;
     flex: 1;
