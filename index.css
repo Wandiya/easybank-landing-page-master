@@ -90,8 +90,12 @@ a {
     margin-inline: .5rem;
 }
 
-.navbar li:hover {
-    border-bottom: 5px solid var(--lime-green);
+.navbar li:not(:last-child) {
+    margin-inline-end: 3rem;
+}
+
+.navbar li:hover:not(:last-child) {
+    border-bottom: 5px solid #0ef;
 }
 
 .navbar-collapse {
