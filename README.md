@@ -65,8 +65,8 @@ flexbox shorthand property, tailwind css, gird and lots more.
 ## Author
 
 
-- Frontend Mentor - [@wandiya](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@wandiyaJames](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@wandiya](https://www.frontendmentor.io/home)
+- Twitter - [@wandiyaJames](https://twitter.com/home)
 
 ## Acknowledgments
 I James Wandiya acknowledge that this work has been implemented through hardwork and dedication. I am deeply indebted to Mr King Praise, My  Instructor(Mr Iodiong Joseph), Frontend Mentor and fellow colleagues at Nhub Nigeria.
