@@ -58,7 +58,7 @@ flexbox shorthand property, tailwind css, gird and lots more.
 
 ### Useful resources
 
-- [Youtube tutorials](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Youtube videos ](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Frontend mentors](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 
